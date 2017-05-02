@@ -1,0 +1,83 @@
+/* ���������߾� */
+
+[v-cloak] {
+    display: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+
+/* structural elements �ṹԪ�� */
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+
+/* list elements �б�Ԫ�� */
+
+pre,
+
+/* text formatting elements �ı���ʽԪ�� */
+
+fieldset,
+lengend,
+button,
+input,
+textarea,
+
+/* form elements ����Ԫ�� */
+
+th,
+td,
+img {
+    /* table elements ����Ԫ�� */
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    outline: 0;
+    border: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
