@@ -14,3 +14,4 @@ it's a simple webapp bookStore which is based on Vue,zepto and koa
 <p>一、项目的数据内容主要来自静态数据文件，用Node对文件内容进行读取，并且对前端抛出数据接口以及路由设置</p>
 <p>二、前端页面，通过ajax获取对应页的数据，利用vue来对页面进行数据渲染。</p>
 <p>三、利用Zepto实现页面的功能需求和事件绑定</p>
+<p>四、搜索栏的搜索采用的是线上现有的接口 dushu.xiaomi.com/store/v0/lib/query/onebox?</p>
